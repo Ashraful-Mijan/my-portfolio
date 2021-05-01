@@ -1,0 +1,12 @@
+/* .brand-font {
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 15px; 
+    vertical-align: baseline
+} */
+.bg-lightBlue {
+    background-color: #152136;
+}
+.navbar-border {
+    border-bottom: 1px solid #374253;
+    border-bottom-style: dashed;
+}

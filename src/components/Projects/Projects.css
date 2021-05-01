@@ -1,0 +1,12 @@
+.projects {
+    background-color: #131F33;
+}
+.sm-button {
+    border: 1px solid white;
+    background-color: #131F33;
+    width: 100px;
+}
+.sm-button:hover {
+    background-color: #24385c;
+    border-color: white;
+}
