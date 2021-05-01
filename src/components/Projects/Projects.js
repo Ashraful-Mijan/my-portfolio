@@ -6,7 +6,7 @@ import exploreTeams from '../../img/exploreTeams.PNG'
 import Project from '../Project/Project';
 import { Link } from 'react-router-dom';
 
-const projects = [
+const projectsData = [
     {
         name: "Fixer Buddies",
         img: fixerBuddies,
@@ -35,7 +35,7 @@ const Projects = () => {
                 <hr className="bg-white" />
                 <div className="row py-5">
                     {
-                        projects.map(project => <Project key={project.name} project={project} />)
+                        projectsData.map(project => <Project key={project.name} project={project} />)
                     }
                 </div>
                 <Link to="/moreProjects" className="btn btn-primary btn-sm text-center d-block mx-auto sm-button">See More</Link>

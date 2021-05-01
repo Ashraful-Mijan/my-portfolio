@@ -30,7 +30,7 @@ const About = () => {
                             <p className="p-0 m-0 text-white fw-bold">Location:</p>
                             <p className="text-muted p-0 m-0">Moulvibazar, Sylhet, Bangladesh</p>
                         </div>
-                        <a className="btn btn-primary bg-common border-0 my-4 ms-3">Download Resume</a>
+                        <a href="/" className="btn btn-primary bg-common border-0 my-4 ms-3">Download Resume</a>
                     </div>
                 </div>
             </div>
