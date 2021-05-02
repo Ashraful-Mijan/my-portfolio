@@ -47,8 +47,11 @@ const MoreProjects = () => {
     return (
         <section className="py-5">
             <div className="container">
-                <h2 className="mx-auto offset-md-2 pb-5">Latest Projects:</h2>
                 <div className="row">
+                    <div className="col-md-8 offset-md-2">
+                        <h2 className="mx-auto offset-md-2 pb-5 text-color">Latest Projects:</h2>
+                        <hr/>
+                    </div>
                     {
                         projectsData.map(data => <SingleAllProjects key={data.name} data={data} />)
                     }

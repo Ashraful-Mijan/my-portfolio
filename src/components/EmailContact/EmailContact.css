@@ -1,0 +1,28 @@
+.bg-form {
+    background: #19273e;
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #19273e !important;
+    color: white !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.primary-btn:focus {
+    outline: 0;
+    border: none;
+}
+.primary-btn {
+    border: 2px solid #8cc090;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.primary-btn:hover {
+    background-color: #8cc090;
+    color: white;
+}
