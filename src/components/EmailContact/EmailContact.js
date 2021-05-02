@@ -37,7 +37,7 @@ const EmailContact = () => {
                         <div className="mb-3">
                             <textarea name="message" cols="15" rows="5" className="form-control bg-form" placeholder="write message*"></textarea>
                         </div>
-                        <button type="submit" className="btn primary-btn">Send</button>
+                        <button type="submit" className="btn primary-btn btn-sm">Send</button>
                     </form>
                 </div>
             </div>

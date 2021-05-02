@@ -10,8 +10,8 @@ const projectsData = [
     {
         name: "Fixer Buddies",
         img: fixerBuddies,
-        liveLink: '',
-        github: ''
+        liveLink: 'https://fixer-buddies.web.app/',
+        github: 'https://github.com/Ashraful-Mijan/Fixer-Buddies'
     },
     {
         name: "Express Riders",
@@ -22,8 +22,8 @@ const projectsData = [
     {
         name: "Explore Teams",
         img: exploreTeams,
-        liveLink: '',
-        github: ''
+        liveLink: 'https://romantic-carson-9067a4.netlify.app/',
+        github: 'https://github.com/Ashraful-Mijan/Explore-Teams'
     },
 ]
 
@@ -31,14 +31,16 @@ const Projects = () => {
     return (
         <section className="projects py-5" id="projects">
             <div className="container">
-            <h3 className="text-center my-5 text-common">Projects</h3>
+                <h3 className="text-center my-5 text-common">Projects</h3>
                 <hr className="bg-white" />
                 <div className="row py-5">
                     {
                         projectsData.map(project => <Project key={project.name} project={project} />)
                     }
                 </div>
-                <Link to="/moreProjects" className="btn btn-primary btn-sm text-center d-block mx-auto sm-button">See More</Link>
+                <div className="text-center">
+                    <Link to="/moreProjects" className="btn primary-btn btn-sm text-center mx-auto">See More</Link>
+                </div>
             </div>
         </section>
     );
