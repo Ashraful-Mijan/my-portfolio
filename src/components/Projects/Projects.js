@@ -16,8 +16,8 @@ const projectsData = [
     {
         name: "Express Riders",
         img: expressRiders,
-        liveLink: '',
-        github: ''
+        liveLink: 'https://express-riders.web.app/',
+        github: 'https://github.com/Ashraful-Mijan/Express-Riders'
     },
     {
         name: "Explore Teams",

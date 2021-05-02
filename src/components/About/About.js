@@ -10,7 +10,7 @@ const About = () => {
                 <hr className="bg-white" />
                 <div className="row pt-5">
                     <div className="col-md-4 px-3 px-md-0">
-                        <h2 className="text-white">About Me</h2>
+                        <h4 className="text-white">About Me</h4>
                         <p className="text-white text-justify">
                             Hi! I am Ashraful Mijan, a web developer focused on crafting great web experiences.  Coding  has been my passion since the day I started working with computers .I have a deep interest in JavaScript. I enjoy creating beautifully designed, intuitive and functional websites. I have created and designed some responsive websites with modern and useful features .
                         </p>
@@ -22,10 +22,10 @@ const About = () => {
                     <div className="col-md-4 pt-5 pt-md-0">
                         {/* accordion */}
                         <div className="accordion" id="accordionExample">
-                            <h2 className="text-color">Technical Skills: </h2>
+                            <h4 className="text-white">Technical Skills</h4>
                             <div className="accordion-item ">
                                 <h2 className="accordion-header bg-dark" id="headingOne">
-                                    <button className="accordion-button fw-bold text-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <button className="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Expertise
                                     </button>
                                 </h2>
@@ -43,7 +43,7 @@ const About = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingTwo">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Comfortable
                                     </button>
                                 </h2>
@@ -58,7 +58,7 @@ const About = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThree">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Familiar
                                     </button>
                                 </h2>
@@ -75,12 +75,12 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThree">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h2 className="accordion-header" id="headingFour">
+                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         Tools
                                     </button>
                                 </h2>
-                                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div className="accordion-body text-white" style={{backgroundColor: '#152136'}}>
                                         <strong className='d-block'>* Git</strong>
                                         <strong className='d-block'>* NPM</strong>

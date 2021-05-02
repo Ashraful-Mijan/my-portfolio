@@ -20,32 +20,31 @@ const EmailContact = () => {
     }
 
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-md-6 offset-md-3 text-start">
-                    <h5 className='text-color'>Contact Me:</h5>
-                    <form className="" onSubmit={sendEmail}>
-                        <div className="mb-3">
-                            <input type="text" className="form-control bg-form" name="name" placeholder="Your Name*" />
-                        </div>
-                        <div className="mb-3">
-                            <input type="text" className="form-control bg-form" name='subject' placeholder="Subject*" />
-                        </div>
-                        <div className="mb-3">
-                            <input type="text" className="form-control bg-form" name='email' placeholder="Your Email*" />
-                        </div>
-                        <div className="mb-3">
-                            <textarea name="message" cols="15" rows="5" className="form-control bg-form" placeholder="write message*"></textarea>
-                        </div>
-                        <button type="submit" className="btn primary-btn btn-sm">Send</button>
-                    </form>
+        <section className="py-5" style={{ backgroundColor: '#131F33', height: '100%', minHeight: '100vh' }}>
+            <div className="container">
+                <div className="row m-1 m-md-0">
+                    <div className="col-md-6 offset-md-3 text-start py-3 px-4 rounded" style={{backgroundColor: '#19273E'}}>
+
+                        <form className="" onSubmit={sendEmail}>
+                            <h5 className='text-white py-3 text-center'>GET IN TOUCH</h5>
+                            <div className="mb-3 ">
+                                <input type="text" className="form-control" name="name" placeholder="Your Name*" />
+                            </div>
+                            <div className="mb-3 ">
+                                <input type="text" className="form-control " name='subject' placeholder="Subject*" />
+                            </div>
+                            <div className="mb-3 ">
+                                <input type="text" className="form-control " name='email' placeholder="Your Email*" />
+                            </div>
+                            <div className="mb-3 ">
+                                <textarea name="message" cols="15" rows="5" className="form-control " placeholder="write message*"></textarea>
+                            </div>
+                            <button type="submit" className="btn primary-btn btn-sm">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-
-        </div>
-
-
-
+        </section>
     );
 };
 

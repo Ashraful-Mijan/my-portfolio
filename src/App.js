@@ -6,6 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import EmailContact from './components/EmailContact/EmailContact';
 import Home from './components/Home/Home';
 import MoreProjects from './components/MoreProjects/MoreProjects';
 import Navbar from './components/Navbar/Navbar';
@@ -20,6 +21,10 @@ function App() {
         <Route path="/moreProjects">
             <Navbar/>
             <MoreProjects/>
+        </Route>
+        <Route path="/contactMe">
+            <Navbar/>
+            <EmailContact/>
         </Route>
       </Switch>
     </Router>

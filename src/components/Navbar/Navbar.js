@@ -14,8 +14,10 @@ const Navbar = () => {
                     <div className="navbar-nav ms-auto fw-bold">
                         <Link to="/" className="nav-link text-white active ">Home</Link>
                         <Link to="/moreProjects" className="nav-link text-white " >Projects</Link>
+                        <a href="#about" className="nav-link text-white " >About</a>
                         <Link to="/" className="nav-link text-white">Blog</Link>
-                        <a className="btn primary-btn btn-sm" href="https://docs.google.com/document/d/149MZ77v5orRqVJvfe1SDzF6ku_qkLvMR8mBOPWq4Z-A/edit?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
+                        <Link to="/contactMe" className="nav-link text-white">Contact</Link>
+                        <a className="btn primary-btn " href="https://docs.google.com/document/d/149MZ77v5orRqVJvfe1SDzF6ku_qkLvMR8mBOPWq4Z-A/edit?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
                     </div>
                 </div>
             </div>
