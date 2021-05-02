@@ -14,7 +14,7 @@ const About = () => {
                         <p className="text-white text-justify">
                             Hi! I am Ashraful Mijan, a web developer focused on crafting great web experiences.  Coding  has been my passion since the day I started working with computers .I have a deep interest in JavaScript. I enjoy creating beautifully designed, intuitive and functional websites. I have created and designed some responsive websites with modern and useful features .
                         </p>
-                        <a href="/" className="btn primary-btn my-4">Download Resume</a>
+                        <a rel="noreferrer" href="https://drive.google.com/file/d/1vLrm-bktOPgHHW3H3pWl60VBRunXB7kF/view?usp=sharing" target="_blank" className="btn primary-btn my-4">Download Resume</a>
                     </div>
                     <div className="col-md-4 px-3 text-center mt-3 mt-md-0">
                         <img src={img} className="w-75 border lg-border" alt="" />

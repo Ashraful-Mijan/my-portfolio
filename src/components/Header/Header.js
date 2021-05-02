@@ -26,10 +26,10 @@ const Header = () => {
                             <p style={{color: '#e6f1ff'}}>
                                 I am a hard working individual web developer with deep knowledge and proficiency in front-end technology as well as the ability to communicate effectively in a team  setting, and possessing a strong willingness to learn about modern web technologies.
                             </p>
-                            <FaGithub className="icon text-white" />
-                            <FaLinkedinIn className="icon text-white" />
+                            <a rel="noreferrer" href="https://github.com/Ashraful-Mijan" target="_blank"><FaGithub className="icon text-white" /></a>
+                            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ashraful-mijan/"><FaLinkedinIn className="icon text-white" /></a>
                             <SiFacebook className="icon text-white" />
-                            <AiFillTwitterCircle className="icon text-white" />
+                            <a rel="noreferrer" target="_blank" href="https://twitter.com/ashraful__mijan"><AiFillTwitterCircle className="icon text-white" /></a>
                         </div>
                     </div>
                     <div className="col-md-4 mt-5 mt-md-0 pb-5 px-3 px-md-0 pb-md-0">
