@@ -6,9 +6,7 @@ const Skills = () => {
         <section className="skills bg-skills py-5" id="skills">
             <div className="container">
                 <h3 className="text-center my-5 text-common">I AM GOOD AT</h3>
-                <p className="text-light fs-5 p-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-                </p>
+                
                 <hr className="bg-white" />
                 <div className="row py-5">
                     <div className="col-md-6 px-5 pb-3 pb-md-0">
