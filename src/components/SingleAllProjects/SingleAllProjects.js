@@ -16,6 +16,7 @@ const SingleAllProjects = ({ data }) => {
                 <div className='mt-2 mb-3'>
                     <p className="m-0">{data.name}</p>
                     <p className="m-0"><span className="text-info">Technology Used:</span> {data.tech}</p>
+                    <p>{data.overview}</p>
                 </div>
             </div>
         </div>

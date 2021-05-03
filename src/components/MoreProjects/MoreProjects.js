@@ -4,6 +4,7 @@ import exploreTeams from '../../img/exploreTeams.PNG'
 import expressRiders from '../../img/expressRiders.PNG'
 import CruiseQueen from '../../img/CruiseQueen.PNG'
 import hungryMonster from '../../img/hungryMonster.PNG'
+import carShop from '../../img/carShop.png'
 import SingleAllProjects from '../SingleAllProjects/SingleAllProjects';
 
 
@@ -13,7 +14,16 @@ const projectsData = [
         img: fixerBuddies,
         liveLink: 'https://fixer-buddies.web.app/',
         repo: 'https://github.com/Ashraful-Mijan/Fixer-Buddies',
-        tech: 'React.js, node.js, mongoDB, firebase, stripe.js,  Bootstrap5'
+        tech: 'React.js, node.js, mongoDB, firebase, stripe.js,  Bootstrap5',
+        overview: 'Fixer Buddies is a single-page website where users can booking service to repair pars of laptop and desktop computer like RAM , HDD, Processor, Display Repair'
+    },
+    {
+        name: "CarShop",
+        img: carShop,
+        liveLink: 'https://smart-carshop.web.app/',
+        repo: 'https://github.com/Ashraful-Mijan/CarShop-client',
+        tech: 'React.js, node.js, mongoDB, firebase, Bootstrap5',
+        overview: 'CarShop is a single-page web application where users can buy car. This is a online CarShop platform to buy where user can choose and buy.'
     },
     {
         name: "Explore Teams",
@@ -45,7 +55,7 @@ const projectsData = [
 
 const MoreProjects = () => {
     return (
-        <section className="py-5" style={{backgroundColor: '#152136'}}>
+        <section className="py-5" style={{ backgroundColor: '#152136' }}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
