@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-lightBlue navbar-border">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-lightBlue navbar-border">
             <div className="container">
                 <Link className="navbar-brand fw-bold text-white brand-font" to='/'>Ashraful Mijan</Link>
                 <button className="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

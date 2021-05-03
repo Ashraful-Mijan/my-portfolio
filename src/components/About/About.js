@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import img from '../../img/ashraful.jpg'
 
 const About = () => {
     return (
@@ -9,17 +8,19 @@ const About = () => {
                 <h3 className="text-center my-5 text-common">Profile</h3>
                 <hr className="bg-white" />
                 <div className="row pt-5">
-                    <div className="col-md-4 px-3 px-md-0">
+                    <div className="col-md-6 px-3 px-md-0">
                         <h4 className="text-white">About Me</h4>
                         <p className="text-white text-justify">
                             Hi! I am Ashraful Mijan, a web developer focused on crafting great web experiences.  Coding  has been my passion since the day I started working with computers .I have a deep interest in JavaScript. I enjoy creating beautifully designed, intuitive and functional websites. I have created and designed some responsive websites with modern and useful features .
                         </p>
+                        <div>
+                            <p className="text-white"><span className="fw-bold text-uppercase">phone:</span> <span className="ps-3">01733493048</span></p>
+                            <p className="text-white"><span className="fw-bold text-uppercase">email:</span> <span className="ps-3">ashrafulmijan5@gmail.com</span></p>
+                            <p className="text-white"><span className="fw-bold text-uppercase">address:</span> <span className="ps-3">Sylhet, Bangladesh</span></p>
+                        </div>
                         <a rel="noreferrer" href="https://drive.google.com/file/d/1vLrm-bktOPgHHW3H3pWl60VBRunXB7kF/view?usp=sharing" target="_blank" className="btn primary-btn my-4">Download Resume</a>
                     </div>
-                    <div className="col-md-4 px-3 text-center mt-3 mt-md-0">
-                        <img src={img} className="w-75 border lg-border" alt="" />
-                    </div>
-                    <div className="col-md-4 pt-5 pt-md-0">
+                    <div className="col-md-6 pt-5 pt-md-0">
                         {/* accordion */}
                         <div className="accordion" id="accordionExample">
                             <h4 className="text-white">Technical Skills</h4>
@@ -30,14 +31,14 @@ const About = () => {
                                     </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body text-white" style={{backgroundColor: '#152136'}}>
-                                        <strong className='d-block'>* Javascript</strong>
-                                        <strong className='d-block'>* ES6</strong>
-                                        <strong className='d-block'>* React.js</strong>
-                                        <strong className='d-block'>* REST API</strong>
-                                        <strong className='d-block'>* Bootstrap5</strong>
-                                        <strong className='d-block'>* HTML5</strong>
-                                        <strong className='d-block'>* CSS3</strong>
+                                    <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
+                                        <span className='ms-1 px-1 border py-1'>Javascript</span>
+                                        <span className='ms-1 px-1 border py-1'>ES6</span>
+                                        <span className='ms-1 px-1 border py-1'>React.js</span>
+                                        <span className='ms-1 px-1 border py-1'>REST API</span>
+                                        <span className='ms-1 px-1 border py-1'>Bootstrap5</span>
+                                        <span className='ms-1 px-1 border py-1'>HTML5</span>
+                                        <span className='ms-1 px-1 border py-1'>CSS3</span>
                                     </div>
                                 </div>
                             </div>
@@ -48,11 +49,11 @@ const About = () => {
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body text-white" style={{backgroundColor: '#152136'}}>
-                                        <strong className='d-block'>* Node.js</strong>
-                                        <strong className='d-block'>* ES6</strong>
-                                        <strong className='d-block'>* Express.js</strong>
-                                        <strong className='d-block'>* MongoDB</strong>
+                                    <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
+                                        <span className='ms-1 px-1 border py-1'>Node.js</span>
+                                        <span className='ms-1 px-1 border py-1'>ES6</span>
+                                        <span className='ms-1 px-1 border py-1'>Express.js</span>
+                                        <span className='ms-1 px-1 border py-1'>MongoDB</span>
                                     </div>
                                 </div>
                             </div>
@@ -63,14 +64,16 @@ const About = () => {
                                     </button>
                                 </h2>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body text-white" style={{backgroundColor: '#152136'}}>
-                                        <strong className='d-block'>* TypeScript</strong>
-                                        <strong className='d-block'>* jQuery</strong>
-                                        <strong className='d-block'>* AJAX</strong>
-                                        <strong className='d-block'>* Material UI</strong>
-                                        <strong className='d-block'>* Tailwind</strong>
-                                        <strong className='d-block'>* React Native</strong>
-                                        <strong className='d-block'>* Python</strong>
+                                    <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
+                                        <span className='ms-1 px-1 border py-1'>TypeScript</span>
+                                        <span className='ms-1 px-1 border py-1'>jQuery</span>
+                                        <span className='ms-1 px-1 border py-1'>AJAX</span>
+                                        <span className='ms-1 px-1 border py-1'>Material UI</span>
+                                        <span className='ms-1 px-1 border py-1'>Tailwind</span>
+                                        <span className='ms-1 px-1 border py-1'>React Native</span>
+                                        <br/>
+                                        <br/>
+                                        <span className='ms-1 px-1 border py-1'>Python</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,14 +84,14 @@ const About = () => {
                                     </button>
                                 </h2>
                                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body text-white" style={{backgroundColor: '#152136'}}>
-                                        <strong className='d-block'>* Git</strong>
-                                        <strong className='d-block'>* NPM</strong>
-                                        <strong className='d-block'>* VS Code</strong>
-                                        <strong className='d-block'>* Chrome Dev tool</strong>
-                                        <strong className='d-block'>* Firebase</strong>
-                                        <strong className='d-block'>* Netlify</strong>
-                                        <strong className='d-block'>* Heroku</strong>
+                                    <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
+                                        <span className='ms-1 px-1 border py-1'>Git</span>
+                                        <span className='ms-1 px-1 border py-1'>NPM</span>
+                                        <span className='ms-1 px-1 border py-1'>VS Code</span>
+                                        <span className='ms-1 px-1 border py-1'>Chrome Dev tool</span>
+                                        <span className='ms-1 px-1 border py-1'>Firebase</span>
+                                        <span className='ms-1 px-1 border py-1'>Netlify</span>
+                                        <span className='ms-1 px-1 border py-1'>Heroku</span>
                                     </div>
                                 </div>
                             </div>
