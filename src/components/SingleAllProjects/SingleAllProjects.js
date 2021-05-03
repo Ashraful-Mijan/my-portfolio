@@ -1,18 +1,22 @@
 import React from 'react';
 
-const SingleAllProjects = ({data}) => {
+const SingleAllProjects = ({ data }) => {
     return (
-        <div className="mb-3 col-md-8 offset-md-2">
+        <div className="mb-3 col-md-8 offset-md-2 text-white">
             <div className="single-project">
                 <div className="project-img">
                     <img src={data.img} alt="" className="w-100" />
                 </div>
             </div>
-            <div className="">
-                <a href={data.liveLink} target="_target" className="sm-button btn btn-primary">Website</a>
-                <a href={data.repo} className="sm-button btn btn-primary">Github</a>
-                <p>{data.name}</p>
-                <p><span className="text-info">Technology Used:</span> {data.tech}</p>
+            <div className="py-2 mb-3">
+                <div>
+                    <a href={data.liveLink} target="_target" className="btn primary-btn ">Website</a>
+                    <a href={data.repo} className="btn primary-btn ms-1">Github</a>
+                </div>
+                <div className='mt-2 mb-3'>
+                    <p className="m-0">{data.name}</p>
+                    <p className="m-0"><span className="text-info">Technology Used:</span> {data.tech}</p>
+                </div>
             </div>
         </div>
     );

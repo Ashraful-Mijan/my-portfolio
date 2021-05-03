@@ -45,12 +45,12 @@ const projectsData = [
 
 const MoreProjects = () => {
     return (
-        <section className="py-5">
+        <section className="py-5" style={{backgroundColor: '#152136'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
-                        <h2 className="mx-auto offset-md-2 pb-5 text-color">Latest Projects:</h2>
-                        <hr/>
+                        <h2 className="mx-auto offset-md-2 pb-1 text-color">Latest Projects:</h2>
+                        <hr className="text-white" />
                     </div>
                     {
                         projectsData.map(data => <SingleAllProjects key={data.name} data={data} />)

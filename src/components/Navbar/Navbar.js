@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css'
-
+import { HashLink as Link } from 'react-router-hash-link';
 const Navbar = () => {
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-lightBlue navbar-border">
@@ -14,9 +13,9 @@ const Navbar = () => {
                     <div className="navbar-nav ms-auto fw-bold">
                         <Link to="/" className="nav-link text-white active ">Home</Link>
                         <Link to="/moreProjects" className="nav-link text-white " >Projects</Link>
-                        <a href="#about" className="nav-link text-white " >About</a>
+                        <Link smooth to="/#about" className="nav-link text-white " >About</Link>
                         <Link to="/" className="nav-link text-white">Blog</Link>
-                        <Link to="/contactMe" className="nav-link text-white">Contact</Link>
+                        <Link smooth to="/contactMe" className="nav-link text-white">Contact</Link>
                         <a className="btn primary-btn " href="https://drive.google.com/file/d/1vLrm-bktOPgHHW3H3pWl60VBRunXB7kF/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
                     </div>
                 </div>
