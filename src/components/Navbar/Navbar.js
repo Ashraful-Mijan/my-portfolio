@@ -16,7 +16,7 @@ const Navbar = () => {
                         <Link smooth to="/#about" className="nav-link text-white " >About</Link>
                         <Link to="/" className="nav-link text-white">Blog</Link>
                         <Link smooth to="/contactMe" className="nav-link text-white">Contact</Link>
-                        <a className="btn primary-btn " href="https://drive.google.com/file/d/1W03nAxYmrZMxNM6hGyi_n5GaklBKD5HG/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
+                        <a className="btn primary-btn" href="https://drive.google.com/file/d/1W03nAxYmrZMxNM6hGyi_n5GaklBKD5HG/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
                     </div>
                 </div>
             </div>

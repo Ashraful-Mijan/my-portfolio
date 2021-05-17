@@ -8,7 +8,7 @@ const Project = ({ project }) => {
             <div className="portfolio-effect">
                 <div className="portfolio-item portfolio-effect__item portfolio-item--eff1">
 
-                    <img className="portfolio-item__image w-100 h-100" src={img} alt="Portfolio Item" />
+                    <img className="portfolio-item__image w-100" src={img} alt="Portfolio Item" />
 
                     <div className="portfolio-item__info">
 

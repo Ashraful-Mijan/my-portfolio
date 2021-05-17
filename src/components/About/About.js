@@ -31,14 +31,14 @@ const About = () => {
                                     </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
-                                        <span className='ms-1 px-1 border py-1'>Javascript</span>
-                                        <span className='ms-1 px-1 border py-1'>ES6</span>
-                                        <span className='ms-1 px-1 border py-1'>React.js</span>
-                                        <span className='ms-1 px-1 border py-1'>REST API</span>
-                                        <span className='ms-1 px-1 border py-1'>Bootstrap5</span>
-                                        <span className='ms-1 px-1 border py-1'>HTML5</span>
-                                        <span className='ms-1 px-1 border py-1'>CSS3</span>
+                                    <div className="accordion-body text-white " style={{ backgroundColor: '#152136' }}>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Javascript</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>ES6</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>React.js</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>REST API</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Bootstrap5</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>HTML5</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>CSS3</span>
                                     </div>
                                 </div>
                             </div>
@@ -50,10 +50,10 @@ const About = () => {
                                 </h2>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
-                                        <span className='ms-1 px-1 border py-1'>Node.js</span>
-                                        <span className='ms-1 px-1 border py-1'>ES6</span>
-                                        <span className='ms-1 px-1 border py-1'>Express.js</span>
-                                        <span className='ms-1 px-1 border py-1'>MongoDB</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Node.js</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>ES6</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Express.js</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>MongoDB</span>
                                     </div>
                                 </div>
                             </div>
@@ -65,15 +65,12 @@ const About = () => {
                                 </h2>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
-                                        <span className='ms-1 px-1 border py-1'>TypeScript</span>
-                                        <span className='ms-1 px-1 border py-1'>jQuery</span>
-                                        <span className='ms-1 px-1 border py-1'>AJAX</span>
-                                        <span className='ms-1 px-1 border py-1'>Material UI</span>
-                                        <span className='ms-1 px-1 border py-1'>Tailwind</span>
-                                        <span className='ms-1 px-1 border py-1'>React Native</span>
-                                        <br/>
-                                        <br/>
-                                        <span className='ms-1 px-1 border py-1'>Python</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>TypeScript</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>jQuery</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>AJAX</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Material UI</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Tailwind</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>React Native</span>
                                     </div>
                                 </div>
                             </div>
@@ -85,13 +82,13 @@ const About = () => {
                                 </h2>
                                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div className="accordion-body text-white" style={{ backgroundColor: '#152136' }}>
-                                        <span className='ms-1 px-1 border py-1'>Git</span>
-                                        <span className='ms-1 px-1 border py-1'>NPM</span>
-                                        <span className='ms-1 px-1 border py-1'>VS Code</span>
-                                        <span className='ms-1 px-1 border py-1'>Chrome Dev tool</span>
-                                        <span className='ms-1 px-1 border py-1'>Firebase</span>
-                                        <span className='ms-1 px-1 border py-1'>Netlify</span>
-                                        <span className='ms-1 px-1 border py-1'>Heroku</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Git</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>NPM</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Firebase</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Netlify</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Heroku</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Chrome Dev tool</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>VS Code</span>
                                     </div>
                                 </div>
                             </div>
