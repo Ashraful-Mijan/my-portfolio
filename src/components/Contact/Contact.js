@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
-        <section className="contact py-5 bg-skills " id='contact'>
+        <section className="contact py-5 " id='contact'>
             <div className="container">
                 <h3 className="text-center my-5 text-common">GET IN TOUCH</h3>
                 <hr className="bg-white" />
