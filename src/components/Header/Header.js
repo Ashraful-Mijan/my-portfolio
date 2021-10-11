@@ -29,7 +29,7 @@ const Header = () => {
                             <div className="mt-5">
                                 <a rel="noreferrer" href="https://github.com/Ashraful-Mijan" target="_blank"><FaGithub className="icon text-white" /></a>
                                 <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ashraful-mijan/"><FaLinkedinIn className="icon text-white" /></a>
-                                <SiFacebook className="icon text-white" />
+                                <a rel="noreferrer" target="_blank" href="https://web.facebook.com/ashrafulmijan5/"><SiFacebook className="icon text-white" /></a>
                                 <a rel="noreferrer" target="_blank" href="https://twitter.com/ashraful__mijan"><AiFillTwitterCircle className="icon text-white" /></a>
                             </div>
                         </div>

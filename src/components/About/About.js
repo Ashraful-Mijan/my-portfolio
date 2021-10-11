@@ -14,7 +14,7 @@ const About = () => {
                             Hi! I am Ashraful Mijan, a web developer focused on crafting great web experiences.  Coding  has been my passion since the day I started working with computers .I have a deep interest in JavaScript. I enjoy creating beautifully designed, intuitive and functional websites. I have created and designed some responsive websites with modern and useful features .
                         </p>
                         <div>
-                            <p className="text-white"><span className="fw-bold text-uppercase">phone:</span> <span className="ps-3">01733493048</span></p>
+                            <p className="text-white"><span className="fw-bold text-uppercase">phone:</span> <span className="ps-3">01752538207</span></p>
                             <p className="text-white"><span className="fw-bold text-uppercase">email:</span> <span className="ps-3">ashrafulmijan5@gmail.com</span></p>
                             <p className="text-white"><span className="fw-bold text-uppercase">address:</span> <span className="ps-3">Sylhet, Bangladesh</span></p>
                         </div>
