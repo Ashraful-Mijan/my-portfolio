@@ -5,6 +5,8 @@ import expressRiders from '../../img/expressRiders.PNG'
 import CruiseQueen from '../../img/CruiseQueen.PNG'
 import hungryMonster from '../../img/hungryMonster.PNG'
 import carShop from '../../img/carShop.png'
+import hotOne from '../../img/hotOne.png'
+import comOne from '../../img/comOne.png'
 import SingleAllProjects from '../SingleAllProjects/SingleAllProjects';
 
 
@@ -16,6 +18,22 @@ const projectsData = [
         repo: 'https://github.com/Ashraful-Mijan/Fixer-Buddies',
         tech: 'React.js, node.js, mongoDB, firebase, stripe.js,  Bootstrap5',
         overview: 'Fixer Buddies is a single-page website where users can booking service to repair pars of laptop and desktop computer like RAM , HDD, Processor, Display Repair'
+    },
+    {
+        name: "Red Onion",
+        img: hotOne,
+        liveLink: 'https://hot-onion-restaurant-app.web.app/',
+        repo: 'https://github.com/Ashraful-Mijan/hot-onion-restaurant',
+        tech: 'React.js, node.js, mongoDB, firebase, stripe.js,  Bootstrap5',
+        overview: "red-onion a restaurant website. From our website, you can get healthy, delicious food at very affordable prices. We're working to give a new experience in your life. Feel free to visit our website and give us feedback on how we can give more impact on your life."
+    },
+    {
+        name: "Computer Garage",
+        img: comOne,
+        liveLink: 'https://computer-repair-web.web.app/home',
+        repo: 'https://github.com/Ashraful-Mijan/computer-garage',
+        tech: 'React.js, node.js, mongoDB, firebase, stripe.js,  Bootstrap5',
+        overview: "The Website is about your computer repair services . In this site you will find some cards about names of services , its prices and its descriptions . You will find a button in every card named as Repair . Click on the button then login with your Google account and repair your computer."
     },
     {
         name: "CarShop",

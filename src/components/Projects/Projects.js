@@ -3,7 +3,9 @@ import './Projects.css'
 import fixerBuddies from '../../img/fixerBuddies.PNG'
 import expressRiders from '../../img/expressRiders.PNG'
 import exploreTeams from '../../img/exploreTeams.PNG'
-import aircnc from '../../img/aircnc1.png'
+import hotOne from '../../img/hotOne.png'
+import comOne from '../../img/comOne.png'
+// import aircnc from '../../img/aircnc1.png'
 import Project from '../Project/Project';
 import { Link } from 'react-router-dom';
 
@@ -15,10 +17,10 @@ const projectsData = [
         github: 'https://github.com/Ashraful-Mijan/Fixer-Buddies'
     },
     {
-        name: "Express Riders",
-        img: expressRiders,
-        liveLink: 'https://express-riders.web.app/',
-        github: 'https://github.com/Ashraful-Mijan/Express-Riders'
+        name: "Red Onion",
+        img: hotOne,
+        liveLink: 'https://hot-onion-restaurant-app.web.app/',
+        github: 'https://github.com/Ashraful-Mijan/hot-onion-restaurant'
     },
     // {
     //     name: "Aircnc",
@@ -27,10 +29,10 @@ const projectsData = [
     //     github: 'https://github.com/Ashraful-Mijan/Explore-Teams'
     // }
     {
-        name: "Explore Teams",
-        img: exploreTeams,
-        liveLink: 'https://romantic-carson-9067a4.netlify.app/',
-        github: 'https://github.com/Ashraful-Mijan/Explore-Teams'
+        name: "Computer Garage",
+        img: comOne,
+        liveLink: 'https://computer-repair-web.web.app/home',
+        github: 'https://github.com/Ashraful-Mijan/computer-garage'
     },
 ]
 
