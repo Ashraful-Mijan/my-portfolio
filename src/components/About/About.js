@@ -18,7 +18,7 @@ const About = () => {
                             <p className="text-white"><span className="fw-bold text-uppercase">email:</span> <span className="ps-3">ashrafulmijan5@gmail.com</span></p>
                             <p className="text-white"><span className="fw-bold text-uppercase">address:</span> <span className="ps-3">Sylhet, Bangladesh</span></p>
                         </div>
-                        <a rel="noreferrer" href="https://drive.google.com/file/d/1W03nAxYmrZMxNM6hGyi_n5GaklBKD5HG/view?usp=sharing" target="_blank" className="btn primary-btn my-4">Download Resume</a>
+                        <a rel="noreferrer" href="https://drive.google.com/file/d/1XTYPi2S9tTo2DV1NyKUSvOQcefWRs5EQ/view?usp=sharing" target="_blank" className="btn primary-btn my-4">Download Resume</a>
                     </div>
                     <div className="col-md-6 pt-5 pt-md-0">
                         {/* accordion */}
