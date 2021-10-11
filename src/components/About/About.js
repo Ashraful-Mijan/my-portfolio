@@ -70,7 +70,7 @@ const About = () => {
                                         <span className=' px-1 border py-1 m-1 d-inline-block'>AJAX</span>
                                         <span className=' px-1 border py-1 m-1 d-inline-block'>Material UI</span>
                                         <span className=' px-1 border py-1 m-1 d-inline-block'>Tailwind</span>
-                                        <span className=' px-1 border py-1 m-1 d-inline-block'>React Native</span>
+                                        <span className=' px-1 border py-1 m-1 d-inline-block'>Material UI</span>
                                     </div>
                                 </div>
                             </div>
