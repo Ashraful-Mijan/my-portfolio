@@ -10,12 +10,12 @@ import { AiFillTwitterCircle } from 'react-icons/ai';
 const Header = () => {
     return (
         <section className="bg-header" id="header">
-            <div className="container pt-2 pt-md-5 py-lg-5 py-xl-5">
+            <div className="container pt-2 pt-md-5">
                 <div className="row mt-0 mt-md-5">
                     <div className="col-md-8 px-3 mb-3 mb-md-0 px-md-0 d-flex align-items-center order-2 order-md-1">
                         <div className=" fs-5 me-5 ">
-                            <h6 className="text-common fw-bold display-5">Hello!</h6>
-                            <h2 className="text-light text-name  fw-bold display-5">
+                            <h6 className="text-common fw-bold display-5 fSizeHeader">Hello!</h6>
+                            <h2 className="text-light text-name  fw-bold display-5 fSizeHeader">
                                 <span className='text-capitalize'>I Am </span>
                                 <Typical className="text-white d-inline"
                                     steps={['Ashraful Mijan', 2000, 'Front-End Developer', 2000]}
@@ -23,7 +23,7 @@ const Header = () => {
                                     wrapper="p"
                                 />
                             </h2>
-                            <p style={{ color: '#e6f1ff' }}>
+                            <p className="fSizeParagraph" style={{ color: '#e6f1ff' }}>
                                 I am a hard working individual web developer with deep knowledge and proficiency in front-end technology as well as the ability to communicate effectively in a team  setting, and possessing a strong willingness to learn about modern web technologies.
                             </p>
                             <div className="mt-5">
@@ -35,7 +35,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="col-md-4 mt-5 mt-md-0 pb-5 px-3 px-md-0 pb-md-0 order-1 order-md-2 text-center d-flex align-items-center justify-content-center">
-                        <img src={ashraful} className="w-75 w-md-100 larger-border text-center rounded-circle" alt="ashrafulMijan" />
+                        <img src={ashraful} className="w-75 w-md-100 larger-border text-center rounded-circle imgWidth" alt="ashrafulMijan" />
                     </div>
                 </div>
             </div>

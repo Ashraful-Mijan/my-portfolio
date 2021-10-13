@@ -1,33 +1,123 @@
 .bg-header {
-    background-color: #131F33;
-    height: 90%;
-    min-height: 90vh;
+  background-color: #131f33;
+  height: 90%;
+  min-height: 90vh;
 }
 .larger-border {
-    border: 10px solid #8cc090;
+  border: 10px solid #8cc090;
 }
 .text-common {
-    
-    color: #8cc090;
-    text-transform: uppercase;
+  color: #8cc090;
+  text-transform: uppercase;
 }
 .bg-common {
-    background-color: #8cc090;;
+  background-color: #8cc090;
 }
 .text-name {
-    
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .icon {
-    border: 1px solid gainsboro;
-    font-size: 30px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    margin-right: 10px;
+  border: 1px solid gainsboro;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-right: 10px;
 }
 .icon:hover {
-    color: #0DCAF0 !important;
-    border-color: #0DCAF0;
+  color: #0dcaf0 !important;
+  border-color: #0dcaf0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .fSizeHeader {
+    font-size: 2rem !important;
+  }
+  .fSizeParagraph {
+    font-size: 1.15rem !important;
+  }
+  .imgWidth {
+    width: 75%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .fSizeHeader {
+    font-size: 2rem !important;
+  }
+  .fSizeParagraph {
+    font-size: 1.15rem !important;
+  }
+  .imgWidth {
+    width: 75%;
+  }
+  .bg-header {
+    padding-top: 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .fSizeHeader {
+    font-size: 2rem !important;
+  }
+  .fSizeParagraph {
+    font-size: 1.15rem !important;
+  }
+  .imgWidth {
+    width: 75%;
+  }
+  .bg-header {
+    padding-top: 0px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .fSizeHeader {
+    font-size: 3rem !important;
+  }
+  .fSizeParagraph {
+    font-size: 1.25rem !important;
+  }
+  .imgWidth {
+    width: 75%;
+  }
+  .bg-header {
+    padding-top: 0rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .fSizeHeader {
+    font-size: 3rem !important;
+  }
+  .fSizeParagraph {
+    font-size: 1.25rem !important;
+  }
+  .imgWidth {
+    width: 75%;
+  }
+  .bg-header {
+    padding-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .fSizeHeader {
+    font-size: 5rem !important;
+  }
+  .fSizeParagraph {
+    font-size: 2.25rem !important;
+  }
+  .imgWidth {
+    width: 100%;
+  }
+  .bg-header {
+    padding-top: 8rem;
+  }
 }
