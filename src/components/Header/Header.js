@@ -10,7 +10,7 @@ import { AiFillTwitterCircle } from 'react-icons/ai';
 const Header = () => {
     return (
         <section className="bg-header" id="header">
-            <div className="container pt-2 pt-md-5">
+            <div className="container pt-2 pt-md-5 py-lg-5 py-xl-5">
                 <div className="row mt-0 mt-md-5">
                     <div className="col-md-8 px-3 mb-3 mb-md-0 px-md-0 d-flex align-items-center order-2 order-md-1">
                         <div className=" fs-5 me-5 ">
